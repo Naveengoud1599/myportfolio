@@ -1,0 +1,33 @@
+.para{
+  color: rgb(78, 78, 78);
+}
+
+.outer{
+  padding: 50px;
+  background-color: rgb(22, 180, 243);
+  width: fit-content;
+  height: fit-content
+
+}
+
+.others{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.inner{
+  padding: 10px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+button{
+  width: fit-content;
+  background-color: rgb(22, 180, 243);
+  color: white;
+  font-size: large;
+  border-color: rgb(22, 180, 243);
+}
