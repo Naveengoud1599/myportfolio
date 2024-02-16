@@ -53,7 +53,7 @@ function submitFormData(formData){
         headers: {
             'Content-type': "application/json",
             Accept: "application/json",
-            Authorization: "Bearer 3777a779983572e6cc3fe816e58f4bd01496e195fffb9613b1f829dfd149d352"
+            Authorization: "Bearer 3777a779983572e6cc3fe816e58f4bd01496e195fffb9613b1f829dfd149d352" // change token if required at https://gorest.co.in
         },
         body: JSON.stringify(formData)
     }
