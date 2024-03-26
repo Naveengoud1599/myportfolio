@@ -1,0 +1,84 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.social a {
+  color: #00E8F8;
+  font-size: 1rem;
+  border: 1.6px solid #50dfe9;
+  border-radius: 50%;
+  text-align: center;
+  width: 26px;
+}
+
+.social a:hover {
+  color: #1F252E;
+  background-color: #00E8F8;
+  box-shadow: 0 0 20px #00E8F8;
+  transition: all .3s ease-in-out;
+}
+
+.main h1 {
+  font-size: 1.5rem;
+}
+
+
+body {
+  font-family: 'Poppins', sans-serif;
+  max-height: 100vh;
+  background-color: #1F252E;
+  color: white;
+}
+
+/* Navbar */
+
+
+.nav-bar{
+  height: 60px;
+  background-color: rgb(250, 209, 2);
+  column-gap: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-ul{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  gap: 20px;
+  list-style: none;
+}
+
+
+
+
+
+/* .footer{
+  background-color: #333;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  text-align: center;
+  color: white;
+} */
+
+@keyframes moveUp {
+  0% {
+    transform: translateY(50px); /* Initial position */
+  }
+  100% {
+    transform: translateY(0px); /* Move image 50 pixels upwards */
+  }
+}
+
+/* Apply the animation to the image */
+.animate-up {
+  animation: moveUp 1s ease forwards; /* Run the animation once */
+}
