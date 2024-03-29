@@ -5,7 +5,7 @@ import About from "./About";
 import Contact from "./Contact";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
-import Simon from "./Simon";
+import Projects from "./Projects";
 
 function App() {
   return (
@@ -14,7 +14,7 @@ function App() {
       <Routes>
         <Route path="/" Component={Home} />
         <Route path="/about" Component={About} />
-        <Route path="/simon" Component={Simon} />
+        <Route path="/projects" Component={Projects} />
         <Route path="/contact" Component={Contact} />
       </Routes>
       <Footer />

@@ -21,11 +21,11 @@ function Navbar() {
         </li>
         <li>
           <Link
-            to="/simon"
+            to="/projects"
             className="nav-link"
             style={{ textDecoration: "none" }}
           >
-            Simon Game
+            Projects
           </Link>
         </li>
         <li>
